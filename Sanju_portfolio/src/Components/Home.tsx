@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-scroll'
 import { FaLongArrowAltDown } from "react-icons/fa";
 import Tom from "../assets/tom.png"
@@ -6,7 +5,7 @@ import Tom from "../assets/tom.png"
 
 const Home = () => {
   return (
-<div className='h-screen w-full bg-gradient-to-b from-black to-gray-800'>
+<div id='home'className='h-screen w-full bg-gradient-to-b from-black to-gray-800'>
     <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
             <h2 className="text-4xl font-bold sm:text-7xl text-white">

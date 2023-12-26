@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { FaBars,FaTimes } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
 
@@ -19,7 +20,7 @@ const NavBar = () => {
         },
         {
             id:4,
-            link:"Portfolio"
+            link:"portfolio"
         },
         {
             id:5,
@@ -33,7 +34,11 @@ const NavBar = () => {
             <h1 className="text-4xl font-signature  ml-2" >TOM</h1>
         </div>
         <ul className='hidden md:flex '>
-            {links.map(({id,link})=><li className='px-3  cursor-pointer capitalize font-extralight text-gray-500 hover:scale-150 duration-150' key={id}>{link}</li>
+            {links.map(({id,link})=><li className='px-3  cursor-pointer capitalize font-extralight text-gray-500 hover:scale-150 duration-150' key={id}>
+                <Link  to={link} smooth duration={500}>{link}</Link>
+            
+            
+            </li>
 
 
                 )}
