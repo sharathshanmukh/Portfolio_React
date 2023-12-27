@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 LinkedIN <FaLinkedin size={30}></FaLinkedin>
                 </>  
             ),
-            href:'https://in.linkedin.com/in/sanjana-chatti-172310173',
+            href:'https://www.linkedin.com/in/saratponugupati/',
             style:'rounded-tr-md',
         },
         {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail size={30}></HiOutlineMail>
                 </>  
             ),
-            href:'mailto:ponugupatisarat2010@gmail.com',
+            href:'mailto:shanmukhasaratp@gmail.com',
         },
         {
             id:4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
                 </>  
             ),
-            href:'/Thermofisher-DS.pdf',
+            href:'public/Shanmukha_resume_2023.pdf',
             style:'rounded-br-md',
             download:false,
         },

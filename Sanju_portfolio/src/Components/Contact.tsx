@@ -9,10 +9,10 @@ const Contact = () => {
             </div>
             <div className='flex justify-center items-center'>
                 <form id='contact' className='flex flex-col w-full md:w-3/4' action='https://getform.io/f/e9563257-8a01-4a77-b8d2-269a0dcece2e' method='post'>
-                    <input type='name' placeholder='enter your name' className='p2 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
-                    <input type='email' placeholder='enter your email' className='p2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
+                    <input type='name' placeholder='Enter your name' className='p2 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
+                    <input type='email' placeholder='Enter your email' className='p2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'></input>
                     <textarea name='message' rows={10} className='bg-transparent rounded-md text-white border'  ></textarea>  
-                    <button className='text-white bg-gradient-to-r from bg-cyan-500 to-blue-500 px-6 my-8 mx-auto flex rounded-md hover:scale-125 duration-700'>talk</button>
+                    <button className='text-white bg-gradient-to-b from bg-red-500 to-blue-500 px-6 my-8 mx-auto flex rounded-md hover:scale-125 duration-700'>Lets</button>
                 </form>
             </div>
         </div>

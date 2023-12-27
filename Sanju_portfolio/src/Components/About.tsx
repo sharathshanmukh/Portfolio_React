@@ -6,11 +6,10 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold border-b-4 inline border-gray-500'>About</p>
             </div>
-            <p className="text-xl mt-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, ad?
-            </p>
-            <br/>
-            <p className="text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem quaerat eum officia minima id suscipit, dicta architecto voluptas modi at, praesentium veniam consectetur necessitatibus perspiciatis dolor laborum, distinctio mollitia dolore sapiente quo eos unde earum molestias quas? Nihil aliquid blanditiis culpa. Quae, magnam ducimus obcaecati quas corrupti doloribus tenetur cum officia deleniti maiores fuga porro recusandae ullam optio tempore dolores! Rem ipsa sequi similique consequatur nemo quaerat, corporis iusto eveniet nostrum possimus quam impedit nesciunt, adipisci distinctio asperiores natus dignissimos hic odit! Voluptas illo maxime, quod ut beatae nostrum, quibusdam enim accusamus veniam rerum tempora consectetur quos deserunt itaque sint!</p>
+
+            
+            <p className="text-xl">
+            As a Data Analyst with an advanced Master’s in Data Analytics Engineering from Northeastern University, I am actively pursuing a role where my extensive expertise in AI, machine learning, and data analysis can be maximized. My skill set includes advanced proficiency in Python, SQL, and R, along with a deep understanding of AI methodologies and machine learning algorithms for both supervised and unsupervised learning. Experienced in big data technologies like Apache Hadoop and Apache Spark, I also bring to the table strong capabilities in full-stack development with a focus on Django, Java, and JavaScript. My proficiency extends to AI-driven tools and libraries such as TensorFlow, enabling sophisticated data modeling, neural network design, and predictive analytics. Eager to deploy my comprehensive technical skills in a dynamic organization, I aim to drive innovation and develop cutting-edge AI and data solutions.              </p>
         </div>
     </div>
   )
