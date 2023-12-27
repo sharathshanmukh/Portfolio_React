@@ -1,7 +1,7 @@
 import Gh from "../assets/Gamehub.png";
 import retail from "../assets/retail.jpeg";
 import inv from "../assets/inv coupon.png";
-import nflx from "../assets/ntflxeda.png";
+import nflx from "../assets/smp.png";
 import reactWeather from "../assets/reactWeather.jpg";
 import ser from "../assets/ser.png"
 
@@ -64,7 +64,7 @@ const PortFolio = () => {
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"> */}
 
           {portfolios.map(({ id, src ,href,name}) => (
-            <div key={id} className=" shadow-gray-600 max-w-md mx-auto overflow-hidden rounded-lg shadow-md">
+            <div key={id} className=" shadow-gray-600 max-w-md mx-auto overflow-auto rounded-lg shadow-md">
             {/* <div key={id} className="portfolio-item overflow-hidden shadow-lg rounded-lg"> */}
               <img
                 src={src}

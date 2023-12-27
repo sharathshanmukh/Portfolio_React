@@ -9,6 +9,7 @@ import reacti from "../assets/react.png"
 import tail from "../assets/tailwind.png"
 import njs from "../assets/node.png"
 import dj from "../assets/django.jpeg"
+import mdb from "../assets/MongoDB.jpg"
 
 const Experience = () => {
     const techs=[
@@ -78,6 +79,12 @@ const Experience = () => {
             title:"Django",
             style:"shadow-blue-900"
         },
+        {
+            id:12,
+            src:mdb,
+            title:"MongoDB",
+            style:"shadow-green-800"
+        },
 
 
     ]
@@ -85,10 +92,10 @@ const Experience = () => {
     <div id="experience" className=" bg-gradient-to-b from-gray-800  to-black h-screen w-screen">
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div className="  mt-10 py-10">
-                <p className="text-4xl font-bold border-b-4 inline border-gray-500 p-2"> Experience</p>
-                <p className="py-6">These are technologies i have worked with</p>
+                <p className="text-3xl font-bold border-b-4 inline border-gray-500 p-2 md:text-3xl"> Experience</p>
+                <p  className="py-6">These are some of the technologies I have worked with</p>
             </div>
-            <div className="w-full  grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 sm:px-0">
+            <div className="w-full overflow-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 sm:px-0">
                {
                 techs.map(({id,src,title,style})=>(
                     <div key={id} className={`shadow-md hover:scale-50 duration-700 py-2 rounded-lg ${style}`}>
