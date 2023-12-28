@@ -2,7 +2,6 @@ import {Link} from 'react-scroll'
 import { IoMdReturnRight } from "react-icons/io";
 import Tom from '../assets/mypic.jpeg'
 
-import React from 'react'
 
  const ABC = () => {
   return (

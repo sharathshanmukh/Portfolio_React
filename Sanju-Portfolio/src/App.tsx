@@ -4,8 +4,7 @@ import Experience from "./Components/Experience"
 import NavBar from "./Components/NavBar"
 import Portfolio from "./Components/Portfolio"
 import SocialLinks from "./Components/SocialLinks"
-import ABC from "./Components/abc"
-
+import ABC from "./Components/ABC"
 function App() {
 
   return (
