@@ -37,7 +37,7 @@ const SocialLinks = () => {
             id:4,
             child:(
                 <>
-                Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
+                Resume <BsFillPersonLinesFill size={29}></BsFillPersonLinesFill>
                 </>  
             ),
             href:'/public/Shanmukha_resume_2023.pdf',
