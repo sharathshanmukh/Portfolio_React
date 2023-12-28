@@ -10,7 +10,7 @@ const PortFolio = () => {
     {
       id: 1,
       src: ser,
-      href:'https://in.linkedin.com/in/sanjana-chatti-172310173',
+      href:'https://github.com/sharathshanmukh/Speech-Emotion-Recognition',
       name: "Speech Emotion Recognition"
 
     },
