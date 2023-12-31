@@ -40,7 +40,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={29}></BsFillPersonLinesFill>
                 </>  
             ),
-            href:'/public/Shanmukha_resume_2023.pdf',
+            href:'/Resume-sp.pdf',
             style:'rounded-br-md',
             download:false,
         },
